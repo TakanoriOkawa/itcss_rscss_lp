@@ -1,0 +1,15 @@
+.section-title {
+  & > .title {
+    background: url('../images/sectionTitle-underLine@2x.png') no-repeat;
+    background-position: 50% bottom;
+    background-size: 68px 8px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1;
+
+    @include sp {
+      background-position: 0 bottom;
+      text-align: left;
+    }
+  }
+}

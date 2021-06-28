@@ -1,0 +1,40 @@
+.share-container {
+  position: relative;
+  padding: 35px 0;
+  background-color: $white;
+
+  & > .share-area > .arrow {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-top: -25px;
+    margin-right: -25px;
+    margin-left: -25px;
+  }
+
+  & > .share-area > .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5%;
+
+    @include sp-wide {
+      flex-wrap: nowrap;
+    }
+  }
+
+  & .share-area > .buttons > .button-default {
+    margin: 5px 5px;
+    width: 46%;
+
+    @include sp-wide {
+      margin: 0 5px;
+      width: 162px;
+    }
+    @include tab {
+      margin: 0 15px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.product-list-container {
+  @include tab-wide {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  & > .item {
+    margin-top: 30px;
+
+    @include tab-wide {
+      flex-basis: 33%;
+      margin-top: 60px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  & > .item > .link {
+    @include sp {
+      display: flex;
+      flex-direction: row;
+    }
+    @include tab-wide {
+      flex-direction: column;
+    }
+  }
+
+  & > .item > .link > .img {
+    @include sp {
+      flex-basis: 32%;
+    }
+  }
+
+  & > .item > .link > .title {
+    padding: 0 10%;
+
+    @include sp {
+      flex-basis: 68%;
+      padding: 20px 20px 0;
+    }
+    @include tab-wide {
+      flex-direction: column;
+      margin: 20px 0 0;
+      padding: 0 20px;
+    }
+  }
+
+  & > .button-default {
+    margin: 50px auto 0;
+  }
+}

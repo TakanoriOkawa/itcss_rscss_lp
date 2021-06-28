@@ -1,0 +1,26 @@
+.product-container {
+  background-color: $white;
+  padding: 70px 0;
+
+  @include sp {
+    padding: 110px 0;
+  }
+
+  & > .wrapper {
+    max-width: 790px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  & > .wrapper > .section-title > .title {
+    padding-bottom: 17px;
+  }
+
+  & > .wrapper > .section-title {
+    @include sp {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

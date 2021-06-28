@@ -1,0 +1,28 @@
+.footer-container {
+  padding: 35px 0;
+  background-color: $gray;
+
+  & > .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 10%;
+    max-width: 786px;
+
+    @include tab {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+  }
+
+  & > .wrapper > .copyright {
+    margin-top: 25px;
+
+    @include tab {
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.news-text-container {
+  flex-basis: 58%;
+  padding-left: 15px;
+
+  & > .title {
+    margin-top: 15px;
+
+    @include sp {
+      margin-top: 0;
+    }
+  }
+
+  & > .date {
+    margin-top: 5px;
+  }
+
+  & > .desc {
+    @include sp {
+      margin-top: 20px;
+    }
+  }
+}

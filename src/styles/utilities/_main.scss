@@ -1,0 +1,92 @@
+/* Utility Layer */
+
+// pcサイズ以上で非表示
+._pc-hidden {
+  display: block !important;
+
+  @include pc {
+    display: none !important;
+  }
+}
+
+// pcサイズ以上で表示
+._pc-block {
+  display: none !important;
+
+  @include pc {
+    display: block !important;
+  }
+}
+
+// spサイズ以上で表示
+._sp-block {
+  display: none !important;
+
+  @include sp {
+    display: block !important;
+  }
+}
+
+// spサイズ以上で非表示
+._sp-hidden {
+  display: block !important;
+
+  @include sp {
+    display: none !important;
+  }
+}
+
+// spWideサイズ以上で非表示
+._sp-wide-hidden {
+  display: block !important;
+
+  @include sp-wide {
+    display: none !important;
+  }
+}
+
+/* stylelint-disable */
+@for $i from 1 through 10 {
+  ._ml-#{$i} {
+    margin-left: #{$i}rem !important;
+  }
+}
+@for $i from 1 through 10 {
+  ._mr-#{$i} {
+    margin-right: #{$i}rem !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  ._mt-#{$i} {
+    margin-top: #{$i}rem !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  ._mb-#{$i} {
+    margin-bottom: #{$i}rem !important;
+  }
+}
+@for $i from 1 through 10 {
+  ._pl-#{$i} {
+    padding-left: #{$i}rem !important;
+  }
+}
+@for $i from 1 through 10 {
+  ._pr-#{$i} {
+    padding-right: #{$i}rem !important;
+  }
+}
+@for $i from 1 through 10 {
+  ._pt-#{$i} {
+    padding-top: #{$i}rem !important;
+  }
+}
+@for $i from 1 through 10 {
+  ._pb-#{$i} {
+    padding-bottom: #{$i}rem !important;
+  }
+}
+
+/* stylelint-enable */

@@ -1,0 +1,31 @@
+.concept-container {
+  background-color: $cBgWhite;
+
+  & .concept-area {
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 88%;
+  }
+
+  & .concept-area > .desc {
+    margin-top: 30px;
+
+    @include tab {
+      margin: 50px auto 0;
+      max-width: 370px;
+    }
+  }
+
+  & .concept-area > .desc > .logo {
+    margin: 15px 0 15px 0;
+
+    @include tab {
+      margin: 35px auto;
+    }
+  }
+
+  & .concept-area > .desc > .text {
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,44 @@
+/* Setting Layer モバイルファースト*/
+
+$iphone5: 320px;
+$sp: 500px;
+$spWide: 580px;
+$tab: 700px;
+$tabWide: 780px;
+$pc: 900px;
+
+@mixin iphone5 {
+  @media (min-width: ($iphone5)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media (min-width: ($sp)) {
+    @content;
+  }
+}
+
+@mixin sp-wide {
+  @media (min-width: ($spWide)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (min-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin tab-wide {
+  @media (min-width: ($tabWide)) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}

@@ -1,0 +1,36 @@
+.header-nav-container {
+  margin-top: 45px;
+
+  &.-is-open {
+    margin-top: 0px;
+  }
+
+  @include pc {
+    margin: 0;
+  }
+
+  & > .list > .item {
+    @include pc {
+      margin-left: 34px;
+    }
+  }
+
+  & > .list > .item:first-child {
+    @include pc {
+      margin-left: 0;
+    }
+  }
+
+  & > .list > .item > .link {
+    padding: 1.2em 7% 1em 7%;
+
+    @include pc {
+      padding: 0 0 8px;
+    }
+  }
+
+  & > .toggle {
+    height: 45px;
+    padding-left: 7%;
+  }
+}

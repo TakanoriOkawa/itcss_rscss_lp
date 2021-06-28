@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="このサイトは、ITCSS,RSCSSの記述練習用の模写サイトです。"
+    />
+    <title>LP課題 ITCSS RSCSS</title>
+
+    <!-- swiper.js style-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles/app.css" />
+  </head>
+  <body>
+    <div class="common-container">
+      <header class="header-container">
+        <h1 class="logo-area _pc-block">
+          <a href="#" class="logo">PAS-POL -旅のモノづくりブランド-｜TABIPPO</a>
+        </h1>
+
+        <nav class="header-nav header-nav-container js-navigation">
+          <ul class="list">
+            <li class="item">
+              <a class="link" href="#">TOP</a>
+            </li>
+            <li class="item">
+              <a class="link" href="#">PRODUCT</a>
+            </li>
+            <li class="item">
+              <a class="link" href="#">ABOUT</a>
+            </li>
+            <li class="item">
+              <a class="link" href="#">NEWS</a>
+            </li>
+            <li class="item">
+              <a class="link" href="#">CONTACT</a>
+            </li>
+          </ul>
+
+          <div class="toggle js-navigation-toggle _pc-hidden">MENU</div>
+        </nav>
+      </header>
+
+      <!-- Main Visual -->
+      <div class="mv-container swiper-container js-swiper">
+        <!-- swiper.js -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./src/images/main_visual_13-0x0.jpg" class="img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/images/main_visual_2-0x0.jpg" class="img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/images/main_visual_6-0x0.jpg" class="img" />
+          </div>
+        </div>
+
+        <div class="mv-items">
+          <div class="logo _pc-hidden">
+            PAS-POL -旅のモノづくりブランド-｜TABIPPO
+          </div>
+          <div class="arrow"></div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+
+      <!-- Concept -->
+      <section class="concept-container">
+        <div class="concept-area">
+          <h2 class="title">旅に出よう。</h2>
+
+          <div class="desc">
+            <p class="text">
+              僕たちが作りたいのは<br />
+              持っているだけで旅に出たくなるモノ。<br />
+              持っているだけでわくわくするモノ。
+            </p>
+
+            <p class="text">
+              それは新しい時代の“パスポート”<br />
+              僕たちが作るものは、<br />
+              そんな、存在でありたい。
+            </p>
+
+            <p class="text">
+              そして、人と人が繋がる<br />
+              こんな時代だからこそ、<br />
+              僕たちは、みんなでひとつのモノを<br />
+              作ることを追求したい。
+            </p>
+
+            <div class="logo"></div>
+
+            <p class="text">
+              それは、自分と世界を繋げる<br />
+              旅のモノづくりブランド
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product -->
+      <section class="product-container">
+        <div class="wrapper">
+          <div class="section-title">
+            <h2 class="title">PRODUCT</h2>
+            <a href="#" class="button-default -more _sp-block">MORE</a>
+          </div>
+
+          <div class="product-list product-list-container">
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/wh_thumb2.png" />
+                </div>
+                <h2 class="title">地球一周 365日 世界遺産絶景の旅</h2>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/kyoto365_thumnail-1.png" />
+                </div>
+                <h2 class="title">365日 京都 絶景の旅</h2>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/banner_thumb1.png" />
+                </div>
+                <h2 class="title">365日 北海道 絶景日めくりカレンダー</h2>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/thumb_hokkaido.png" />
+                </div>
+                <h2 class="title">365日 北海道 絶景の旅</h2>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/thumb_fes.png" />
+                </div>
+                <h2 class="title">
+                  The World Festival Guide -海外の音楽フェス完全ガイド-
+                </h2>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/banner_thumbnail_21.png" />
+                </div>
+                <h2 class="title">この世界で死ぬまでにしたいこと2000</h2>
+              </a>
+            </article>
+
+            <a href="#" class="button-default -more _sp-hidden">MORE</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section class="news-container">
+        <div class="wrapper">
+          <div class="section-title">
+            <h2 class="title">NEWS</h2>
+            <a href="#" class="button-default -more _sp-block">MORE</a>
+          </div>
+
+          <div class="news-list news-list-container">
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/springphoto.jpg" />
+                </div>
+
+                <div class="news-text news-text-container">
+                  <h3 class="title">
+                    人気の絶景ポストカードの制作が再スタート！日本の「春」の絶景を大募集します
+                  </h3>
+                  <p class="date">2021.5.14</p>
+                  <p class="desc _sp-block">
+                    こんにちは、TABIPPOの中 美砂希です。
+                    東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、久しぶりに制作が決定しましたのでお知らせいたします。
+                    今回の制作は、四季に合わせて募集をしていきます。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。まずは、春の風景写真を募集いたします！
+                    現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、春以降募集の際にはまた、改めてお知らせをいたします。
+                    &nb ...
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/2020-12-10-16.59.15.jpg" />
+                </div>
+
+                <div class="news-text news-text-container">
+                  <h3 class="title">
+                    新年を新たな気持で迎える！PAS-POLより、人気商品が詰まった「選べる」福袋の発売がスタート
+                  </h3>
+                  <p class="date">2020.12.10</p>
+                  <p class="desc _sp-block">
+                    今年は、いろんなことがあった1年でした。2021年は、もっと笑ってもっと楽しむ1年に。
+                    世界の旅先に想いを馳せて、日本の魅力を再発見した2020年。旅ができることは当たり前じゃなかった。そんなことを気付かされた年になりました。
+                    来年こそは、徐々に国内外を自由に行き来することができますように。
+                    未来への予定を立てたり、絶景を眺めながらあこがれの場所や再訪したい場所をピックアップしたり。ワクワクした気持ちになって新たな気持で新年を迎えられるPAS-POLグッズを詰め込み、2種類の福袋をご用意いたしま
+                    ...
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/th_shutterstock_756071179.jpg" />
+                </div>
+
+                <div class="news-text news-text-container">
+                  <h3 class="title">
+                    【10/7募集箇所更新】世界遺産フォトグラファーとつくる『365日世界遺産絶景の旅』。不足場所の「旅人の声」を募集中！
+                  </h3>
+                  <p class="date">2020.10.2</p>
+                  <p class="desc _sp-block">
+                    現在制作中の「世界遺産」だけを365箇所集めた書籍『365日世界遺産絶景の旅』に掲載する、旅人の声を9月末まで募集しておりました。
+                    約100名の方からたくさんの感想コメントをいただき、365箇所分のうち、211箇所まで集まりました。ご応募いただいたみなさま、本当にありがとうございます…！
+                    しかし、あと132箇所が残っている状態です…なんとか、365箇所まで近づけたく、募集期間を延長することにしました。（募集するのは不足場所のみとなります）
+                    この場所に行ったことがある！という方は、感想コメントをご ...
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/sekaiisan_tabibitonokoe2.jpg" />
+                </div>
+
+                <div class="news-text news-text-container">
+                  <h3 class="title">
+                    『365日 世界遺産 絶景の旅』旅人の声募集箇所一覧
+                  </h3>
+                  <p class="date">2020.9.2</p>
+                  <p class="desc _sp-block">
+                    ヨーロッパ サンマリノ １、サンマリノ歴史地区とティターノ山
+                    イタリア 2、フィレンツェ歴史地区 3、ドロミーティ
+                    4、ピサのドゥオモ広場
+                    5、ポルトヴェネーレ、チンクエテッレ及び小島群
+                    6、ローマ歴史地区、教皇領とサン・パオロ・フオーリ・レ・ムーラ大聖堂
+                    7、オルチア渓谷 8、アルベロベッロのトゥルッリ
+                    9、アマルフィ海岸 10、ヴェネツィアとその潟 バチカン
+                    11、バチカン市国 マルタ 12、ヴァレッタの市街 スイス
+                    13、アルプス ユ ...
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/sekaiisan_tabibitonokoe.jpg" />
+                </div>
+
+                <div class="news-text news-text-container">
+                  <h3 class="title">
+                    365ヶ所の「旅人の声」を集めます！世界遺産フォトグラファーとつくる『365日
+                    世界遺産 絶景の旅』
+                  </h3>
+                  <p class="date">2020.9.2</p>
+                  <p class="desc _sp-block">
+                    こんにちは。TABIPPOの中です。
+                    先日、「365絶景シリーズ」の新作、『365日 北海道
+                    絶景の旅』が発売されたばかりではありますが、実は新たな「365絶景シリーズ」の新作の制作がすでに動き出しているんです！
+                    今回のテーマは「世界遺産」。写真は、40年間に渡り世界中を駆け回り、世界遺産を中心に空気感のある写真を追求し続けている世界遺産写真家の富井義夫さんのお写真をすべて使用させていただきます。
+                    旅好きなみなさんのリアルな声を集めます
+                    過去の絶景シリーズでも集めていた「旅人の声」 ...
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="item">
+              <a href="#" class="link">
+                <div class="img">
+                  <img src="./src/images/th_beautiful-photo_artboard.jpg" />
+                </div>
+
+                <div class="news-text news-text-container">
+                  <h3 class="title">
+                    #世界でいちばん美しい旅
+                    を集めて、一冊の本を作ろう。私たちがいま本をつくる理由。
+                  </h3>
+                  <p class="date">2020.5.26</p>
+                  <p class="desc _sp-block">
+                    「旅に出たい。」
+                    この記事を読んでいる人の中には、この環境で気持ちが落ち着かない人が多いのではないでしょうか。旅が日々の楽しみだった。次の休みはどこに行こうか、なんて考える時間が大好きだった。最強のパスポートがあってもどこにも行けやしない。
+                    世界中の人達が外出を制限されている中、TABIPPOができることは何なのか。
+                    わたしたちは気付きました。旅に出ることができないだけで、こんなにも心が枯れてしまいそうになること。
+                    わたしたちは気付きました。こんなにも旅が好きだったんだということを。
+                    だから、わ ...
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <a href="#" class="button-default -more _sp-hidden">MORE</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Share -->
+      <section class="share-container">
+        <div class="share-area">
+          <div class="arrow js-backTop">backTop</div>
+
+          <div class="buttons">
+            <a href="#" class="button-default -facebook"> Share on Facebook </a>
+            <a href="#" class="button-default -twitter"> Share on Twitter </a>
+            <a href="#" class="button-default -hatena"> Hatena Bookmark </a>
+            <a href="#" class="button-default -line _sp-wide-hidden">
+              Send to LINE
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <nav class="footer-nav footer-nav-container">
+        <ul class="list">
+          <li class="item">
+            <a class="link" href="#">TOP</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">PRODUCT</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">ABOUT</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">NEWS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <footer class="footer-container">
+        <div class="wrapper footer-area">
+          <h2 class="logo-area -small">
+            <a href="#" class="logo"></a>
+          </h2>
+          <p class="copyright">
+            Copyright © 2021 PAS-POL -旅のモノづくりブランド-｜TABIPPO All
+            rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- swiper.js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- swiper.js option -->
+    <script src="./src/scripts/slider.js"></script>
+
+    <!-- navigation-toggle -->
+    <script src="./src/scripts/toggle.js"></script>
+
+    <!-- scroll top -->
+    <script src="./src/scripts/topScroll.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+/* Element Layer */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $cBase;
+  font-weight: normal;
+  font-size: 1.6rem;
+  font-family: $font-family;
+  line-height: 1.7;
+
+  /*
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  letter-spacing: 0.1em;
+  font-weight: normal;
+}
+
+a {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
