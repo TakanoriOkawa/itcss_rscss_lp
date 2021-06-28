@@ -1,9 +1,9 @@
 # ITCSS RSCSSを用いたLP模写コーディング
 
 ## プレビュー
-LP模写サイト
+[LP模写サイト](https://infallible-turing-ea1708.netlify.app/)
 
-## 模写元のサイト
+[模写元のサイト](https://pas-pol.jp/)
 
 # itcss-rscss-template
 
